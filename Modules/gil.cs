@@ -17,7 +17,7 @@ namespace DiscordBot.Modules
     public class gil : ModuleBase<SocketCommandContext>
     {
         
-        //[Command("join")]
+        [Command("join")]
         public async Task JoinChannel(IVoiceChannel channel = null)
         {
             // Get the audio channel
