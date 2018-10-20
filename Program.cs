@@ -23,7 +23,7 @@ namespace DiscordBot
 		{
 			_client = new DiscordSocketClient();
 
-			await _client.LoginAsync(TokenType.Bot, "NDc3MTk4Mjk1MzU4NTA0OTg0.Dn6gDg.2Ais4povJuFazKfOIfXREt-0KJA");
+			await _client.LoginAsync(TokenType.Bot, "");
 
 			await _client.StartAsync();
 
